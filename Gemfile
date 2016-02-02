@@ -3,3 +3,5 @@ source "https://rubygems.org"
 ruby '2.2.3'
 # gem "rails"
 gem 'sinatra'
+gem 'capybara'
+gem 'selenium-webdriver'

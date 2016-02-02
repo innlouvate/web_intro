@@ -10,11 +10,15 @@ end
 
 get '/random-cat' do
   @name = ["Amigo", "Oscar", "Viking"].sample
-  erb:index
+  erb :index
 end
 
-get '/named-cat' do
+get '/cat-naming' do
+  erb :cat_naming
+end
+
+post '/named-cat' do
   p(params)
   @name = params[:name]
-  erb:index
+  erb :index
 end
