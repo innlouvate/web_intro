@@ -1,4 +1,4 @@
-# Intro to the Web
+# Makers Academy week 3: Intro to the Web
 
 ## Introduction to the web, including:
 
